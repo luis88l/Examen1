@@ -1,0 +1,9 @@
+header {
+    background: #fff;
+    padding: 20px 0;
+    position: relative;
+    z-index: 9;
+    width: 100.9vw;
+    margin-left: 48%;
+    left: -50vw;
+}
