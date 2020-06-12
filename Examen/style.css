@@ -1,3 +1,7 @@
+body{
+    background-color:  #f2f2f2
+    ;
+}
 header {
     background: #fff;
     padding: 20px 0;
@@ -6,4 +10,318 @@ header {
     width: 100.9vw;
     margin-left: 48%;
     left: -50vw;
+}
+
+#logo {
+    max-width: 160px;
+}
+
+#link {
+    float: right;
+    margin: 10px 0 0;
+    font-size: 15px;
+}
+
+.principal {
+    background-color: rgb(0, 114, 190);
+    position: relative;
+    width: 102vw;
+    margin-left: 48%;
+    left: -50vw;
+}
+
+.card-banner-color {
+    background-color: #006FB9 !important;
+}
+
+.banner {
+    display: inline-block;
+    /* margin-left: 25%; */
+}
+
+.card-banner-format {
+    padding: 43px 0px 45px 0px;
+}
+
+.card-banner-vertalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+    flex-direction: column;
+}
+
+.titulo {
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-family: Circular, Roboto;
+}
+
+.card-banner-color-title {
+    color: #ffffff !important;
+}
+
+.subtitulo{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: roboto;
+    color: #fff;
+    text-align: justify;
+}
+
+.divbanner{
+    max-width: 992px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.divbeneficios{
+    max-width: 992px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.divbloques{
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.imagenbanner{
+    text-align: center;
+}
+
+.contenedor{
+    margin-left: 25%;
+}
+
+.video{
+    margin-top: 30px;
+}
+
+.formasabono{
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-size: 25px;
+}
+
+.Bregistro{
+    padding: 5px;
+    background-color: #fff;
+    min-height: 696px;
+}
+
+.head-formating {
+    border-bottom: none !important;
+    color: rgb(0, 114, 190);
+    margin-top: 22px !important;
+    margin-bottom: 14px !important;
+}
+
+.card-height-format {
+    min-height: 625px;
+}
+
+.list-formating {
+    /* list-style: none; */
+    counter-reset: li;
+    /* margin-left: 1em; */
+}
+
+.card-subtext-format {
+    color: #5F5F5F !important;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card-link-margin {
+    margin-top: 18px !important;
+    margin-bottom: 21px;
+}
+
+.card-content-aligner {
+    text-align: center;
+}   
+
+.card-link-format {
+    border: none;
+    text-decoration: underline !important;
+    margin: 0;
+    display: inline;
+    font-size: 16px !important;
+    line-height: 0px;
+    color: #006FB9 !important;
+}
+
+.cards-top-color {
+    border-radius: 5px;
+    border-top: 6px solid #FDDD2E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card-maxwidth {
+    max-width: 1130px !important;
+}
+
+.head-formating h3 {
+    color: #005491 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* 
+.list-formating li::before {
+    content: counter(li);
+    color: #0072BE;
+    display: inline-block;
+    font-size: 18px;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: 600;
+} */
+
+.list-formating li {
+    counter-increment: li;
+    margin-bottom: 22px;
+    font-size: 13px;
+    color: #111111 !important;
+    line-height: 24px !important;
+}
+
+.quitarPadding{
+    padding: 0%;
+}
+
+.card-link-active {
+    background-color: #006FB9 !important;
+    border-color: #006FB9 !important;
+    color: #fff !important;
+    height: 48px !important;
+    line-height: 46px !important;
+    font-size: 13px !important;
+    margin-left: 5%;
+
+    border: 1px solid;
+    margin: 10px;
+    display: inline-block;
+    font-size: .8rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 97%;
+}
+
+.espacio{
+    /* margin: 5px 5px 0 0; */
+}
+
+.card-content-aligner {
+    text-align: center;
+}
+
+.card-download-link {
+    border: none !important;
+    width: 160px;
+    height: 48px !important;
+    margin: 6px 25% 6px 25% !important;
+}
+
+.card-link-inactive {
+    line-height: 44px !important;
+    font-weight: 600;
+    border: 2px solid !important;
+    color: #006FB9 !important;
+    font-size: 16px !important;
+    border-color: #006FB9 !important;
+    height: 48px !important;
+    transition: background-color .15s;
+
+    margin: 10px;
+    display: inline-block;
+    font-size: .8rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 97%;
+}
+
+.card-link-inactive:hover{
+    background-color: #006FB9 !important;
+    color: #fff !important;
+}
+
+.card-link-margin-fix {
+    margin-top: 110px !important;
+}
+
+.bloqueBeneficios{
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    padding: 20px 0;    
+}
+
+/* .texto{
+    font-size: 15px;
+    margin-left: 1px;
+} */
+
+.bloqueBeneficios img {
+    max-width: 40px;
+}
+
+.bloqueBeneficios>div {
+    height: auto;
+}
+
+.tMargin{
+    margin-bottom: 10px;
+}
+
+.contenidoFooter {
+    background: #192c39;
+    padding: 20px 0;
+    position: relative;
+    z-index: 9;
+    width: 102vw;
+    margin-left: 48%;
+    left: -50vw;
+}
+
+.footer {
+    background: #192c39;
+    color: #fff;
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer ul li {
+    margin: 0 auto 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer ul li a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+ul{
+    list-style: none;
+
+}
+
+@media (min-width: 1200px){
+.footer {
+    padding: 20px 0 !important;
+}
 }
